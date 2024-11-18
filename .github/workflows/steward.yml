@@ -27,4 +27,4 @@ jobs:
           github-app-id: 243680
           github-app-key: ${{ secrets.APP_PRIVATE_KEY }}
           github-token: ${{ steps.generate-token.outputs.token }}
-          mill-version: 0.11.12
+          mill-version: 0.12.2
