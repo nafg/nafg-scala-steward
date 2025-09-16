@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-22.04
     name: DIY Steward
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
           
       - name: Generate token
         id: generate-token
